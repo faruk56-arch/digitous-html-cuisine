@@ -10,7 +10,7 @@ header {
     height: 500px;
     background-size: cover;
     background-position: 0 ;
-    opacity: 90%;
+    opacity: 10.1;
     
 }
 
@@ -49,6 +49,7 @@ header h2 {
     font-size: 40px;
     width: 100%;
     text-align: center;
+    opacity: 1;
       
     font-family:  cursive;
 } 
@@ -59,93 +60,100 @@ header img {
     background: #fff;
     border-radius: 70%;
     position: absolute;
-    top: 15%;
+    top: 18%;
     left: 46%;
 }
 
-/* #head {
+#head-main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.contact h2 {
+    font-family: cursive;
+}
+.contact p {
+    font-size: 26px;
+    margin: 5px 0 0 80px;
+    font-family: cursive;
+}
+
+.contact address {
+    margin: 10px 0 0 80px;
+    font-family: cursive;
     
-} */
-.paragraph-main h3 {
-    font-size: 40px;
-    margin-top: 40px;
-    text-align: center;
+}
+.main-3 h3 {
+    font-size: 17px;
+    font-family: cursive;
     font-weight: 600;
-    opacity: 0.8;
 }
 
-.container img {
-    height: 140px;
-    width: 230px;
+.main-3 input {
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.5;
 }
-.container {
-    margin: 40px;
-    height: auto;
-    width: 100%;
-    display: flex;
-    margin-top: 60px;
+.main-3 button {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
 
-}
-
-.paragraph-3 {
-    padding-left: 40px;
-}
-.paragraph-3 h5 {
-    font-size: 20px;
+.main-head {
+    float: right;
+    margin-right: 263px;
+   
+} 
+.main-head h3 {
+    font-size: 18px;
     font-family: cursive;
     font-weight: bold;
 }
-.paragraph-3 p {
-    padding: 5px;
-    font-size: 15px;
-    font-style: italic;
-    opacity: 1;
-}
-
-.side-bar h6 {
-    font-size: 17px;
-    font-style: italic;
-    margin-left: 10px;
-}
-
-.side-bar input {
+.main-head input {
     padding: 5px;
     border-radius: 5px;
-    outline: none;
+    opacity: 0.5;
 }
-.side-bar button {
+
+.main-head button {
     width: 200px;
     padding: 5px;
     border-radius: 5px;
     background: #fff;
+    font-size: 19px;
     font-weight: bold;
 }
 
-.paragraph-3 p {
-    padding: 5px;
-    font-size: 15px;
-    font-style: italic;
-    opacity: 1;
+/* .lien iframe {
+    margin-left: 120px;
+} */
+
+.side-bar {
+    position: absolute;
+    top: 100%;
+    left: 70%;
 }
 .side-bar ul {
+    list-style-type: none;
     display: flex;
     
-    
 }
 
-.side-bar li {
-    list-style-type: none;
-    padding: 5px;
-    margin-left: 5px;
+.side-bar a {
+    padding: 12px;
     
 }
-
-.container h7 {
-    font-size: 15px;
-    margin-left: 110px;opacity: 0.5;
+.map iframe {
+    margin-left: 220px;
+    padding: 20px;
 }
+
+
+
 
 
 footer {
@@ -237,3 +245,4 @@ footer {
     border-radius: 5px;
     font-family: cursive;
 }
+
