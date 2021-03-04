@@ -11,8 +11,7 @@
 
 
 .bg-cuisine {
-    /* background: #000; */
-    /* background: url("../img/header.jpg") no-repeat; */
+    
     background:linear-gradient(0deg, rgba(0 0 0 / 80%), rgba(0 0 0 / 80%)), url(../img/header.jpg);
     height: 500px;
     background-size: cover;
