@@ -1,6 +1,7 @@
 
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,13 +10,16 @@
 }
 
 
-header {
-    background: url("../img/header.jpg") no-repeat;
+.bg-cuisine {
+    /* background: #000; */
+    /* background: url("../img/header.jpg") no-repeat; */
+    background:linear-gradient(0deg, rgba(0 0 0 / 80%), rgba(0 0 0 / 80%)), url(../img/header.jpg);
     height: 500px;
     background-size: cover;
     background-position: center ;
-     /* background: rgba(0, 0, 0, 0);  */
-    /* filter: contrast(0%); */
+    background: linear-gradient(100deg, rgba(86, 86, 0, 0));
+    
+     
     
     
     
@@ -34,6 +38,7 @@ header {
     font-size: 19px;
     float: left;
     padding: 5px;
+    font-family: 'courgette', cursive;
 }
 nav ul {
     padding: 5px;
@@ -44,19 +49,17 @@ nav ul {
      float: right;
      color: #fff;
      margin: 10px;
-     opacity: 0.8;
-     font-family:cursive;
-
+     font-family: 'courgette', cursive;
  }
 header h2 {
     position: absolute;
     top: 30%;
     border: none;
-    color: #fff;
-    background: #16161611;
+    color: #fff !important;
+    /* background: #16161611; */
     font-size: 40px;
     width: 100%;
-    text-align: center;
+    text-align: center !important;
     opacity: 1;
       
     font-family: 'courgette', cursive;
@@ -93,7 +96,7 @@ header img {
 }
 .main-3 h3 {
     font-size: 17px;
-    font-family: cursive;
+    font-family: 'courgette', cursive;
     font-weight: 600;
 }
 
