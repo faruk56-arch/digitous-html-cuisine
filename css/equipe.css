@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: url("../img/header.jpg") no-repeat;
+    background:linear-gradient(0deg, rgba(0 0 0 / 80%), rgba(0 0 0 / 80%)), url(../img/header.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: 0 ;
+    opacity: 90%;
+    
+}
+
+
+.head {
+    height: 70px;
+    background: #41404083;
+    border: 1px solid ;
+    
+}
+ h1 {
+    color: #fff;
+    font-size: 19px;
+    float: left;
+    padding: 5px;
+}
+nav ul {
+    padding: 5px;
+    list-style: none;
+}
+ nav li {
+     font-size: 20px;
+     float: right;
+     color: #fff;
+     margin: 10px;
+     opacity: 0.8;
+     font-family:cursive;
+
+ }
+header h2 {
+    position: absolute;
+    top: 20%;
+    border: none;
+    color: #fff;
+    background: #16161611;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+      
+    font-family: 'courgette', cursive;
+}
+header h3 {
+    position: absolute;
+    top: 28%;
+    left: 37%;
+    color: #fff;
+    font-family: 'courgette', cursive;
+
+} 
+
+header img {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 70%;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+}
